@@ -1,26 +1,27 @@
 export const education = [
   {
-    eduDate: "2016 - 2019",
+    eduDate: "2021 - 2025",
     eduTitle: "Bachelor Engineering",
-    eduIns: " Gujrat Technological University",
-    eduDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    eduIns: " Gujarat Technological University",
+    eduDesc: "Academic Cumulative Grade Points till 4th Sem: XX.",
   },
   {
-    eduDate: "2020 - 2021",
-    eduTitle: "HSC",
-    eduIns: "Cambridge University",
-    eduDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    eduDate: "2020- 2021",
+    eduTitle: "Gujarat Board Higher Secondary School Certificate",
+    eduIns: " Nilkanth Vidhyapith",
+    eduDesc: "Higher Secondary School Percentage : 70.33%.",
   },
   {
     eduDate: "2018 - 2019",
-    eduTitle: "SSC ",
-    eduIns: "TM Primary School",
-    eduDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    eduTitle: "Gujarat Board Secondary School Certificate ",
+    eduIns: "Aaradhya Vidhyasankul",
+    eduDesc: "Secondary School Certificate Percentage : 72.50 %",
   },
   {
-    eduDate: "2005 - 2017",
-    eduTitle: "School Certificate",
-    eduIns: "TM Primary School",
-    eduDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    eduDate: "2008 - 2017",
+    eduTitle: "Gujarat Board Primary School Certificate ",
+    eduIns: "Aaradhya Vidhyasankul",
+    eduDesc: "Primary School Certificate Percentage : 80.50 %",
   },
+ 
 ];
