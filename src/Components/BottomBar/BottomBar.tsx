@@ -33,10 +33,7 @@ const BottomBar = () => {
             </p>
             {/* <h2 className="text-lg">HDK.IO</h2> */}
             <p className="max-w-xs p-0 sm:hidden xl:flex ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Blanditiis voluptatibus quam mollitia, recusandae facilis, quaerat
-              omnis fuga tempore temporibus quos quidem veritatis libero
-              expedita, facere velit fugit voluptate possimus labore?
+            
             </p>
           </div>
           <div className="second">
