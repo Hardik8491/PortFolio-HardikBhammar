@@ -3,7 +3,7 @@ import SectionBg from "../../../public/secBg7.e2bb9063a481e4dc41de.jpg";
 import PatternImg2 from "../../../public/patternImg2.jpg";
 import { education } from "../data/education";
 
-const Education2 = (props:any) => {
+const Education2 = () => {
   return (
     <section 
     className="eduWrap pb-[4.5rem] sm:pb-[5.5rem] md:pb-[7rem] lg:pb-[13.125rem] pt-[8rem] sm:pt-[1rem] md:pt-[1rem] lg:pt-[2rem] xl:pt-[2rem] relative w-full"

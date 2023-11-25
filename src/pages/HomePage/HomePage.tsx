@@ -2,20 +2,13 @@ import { Fragment } from "react";
 import { Helmet } from "react-helmet";
 import Header from "../../Components/Header/Header";
 import FeaturedArea from "../../Components/FeaturedArea/FeaturedArea";
-import AboutUs from "../../Components/AboutUs/AboutUs";
 import Services from "../../Components/Services/Services";
 
 import EducationAndSkills from "../../Components/EducationAndSkills/EducationAndSkills";
-import Portfolio from "../../Components/Portfolio/Portfolio";
 import FreelanceWork from "../../Components/FreelanceWork/FreelanceWork.tsx";
-import Testimonials from "../../Components/Testimonials/Testimonials.tsx";
-import BlogPost from "../../Components/BlogPosts/BlogPosts.tsx";
-import Partners from "../../Components/Partners/Partners.tsx";
 import ContactInfoProfiles from "../../Components/ContactInfoProfiles/ContactInfoProfiles.tsx";
 import ContactUs from "../../Components/ContactUs/ContactUs.tsx";
 import BottomBar from "../../Components/BottomBar/BottomBar.tsx";
-import MyWorkExperience2 from "../../Components/MyWorkExperience/MyWorkExperince2.tsx";
-import Hire from "../../Components/Hiring me/hire.tsx";
 import AboutUs2 from "../../Components/AboutUs/AboutUs2.tsx";
 import Project from "../../Components/Projects/Project.tsx";
 
