@@ -67,7 +67,7 @@
 
 const Service = () => {
   return (
-    <section className="serviceWrap pb-[4.5rem] md:pb-[5.5rem] lg:pb-[6.5rem] xl:pb-[7.5rem] relative w-full">
+    <section className="serviceWrap sm:pt-[1rem] md:pt-[1rem] lg:pt-[2rem] xl:pt-[2rem]  pb-[4.5rem] md:pb-[5.5rem] lg:pb-[6.5rem] xl:pb-[7.5rem] relative w-full">
       <div className="container sm:container md:container lg:container xl:max-w-[98.125rem] mx-auto">
         <div className="secTitleWrap flex justify-center text-center w-full mb-[2.1875rem]">
           <div className="secTitle max-w-[100%] md:max-w-[90%] lg:max-w-[55%]">

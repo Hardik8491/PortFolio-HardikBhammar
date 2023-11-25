@@ -1,5 +1,6 @@
 import { skills } from "../data/skills";
-import SectionTitleLightFull from "../SectionTitles/SectionTitleLightFull";
+import SectionTitleLightFull from "../SectionTitles//SectionTitle3";
+
 import PatternImg2 from "../../assets/patternImg2.jpg";
 import SectionBg from "../../../public/Bg2.jpg";
 
@@ -34,6 +35,7 @@ const Skills = () => {
                       {item.skillDesc}
                     </p>
                   </div>
+             
                   <div className="w-full bg-[#ede5f6] h-[7px] my-3 rounded-[2px]">
                     <div
                       className="bg-accent h-[7px] rounded-[2px] relative"

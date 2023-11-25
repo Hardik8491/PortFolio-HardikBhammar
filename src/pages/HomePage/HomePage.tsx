@@ -15,6 +15,9 @@ import ContactInfoProfiles from "../../Components/ContactInfoProfiles/ContactInf
 import ContactUs from "../../Components/ContactUs/ContactUs.tsx";
 import BottomBar from "../../Components/BottomBar/BottomBar.tsx";
 import MyWorkExperience2 from "../../Components/MyWorkExperience/MyWorkExperince2.tsx";
+import Hire from "../../Components/Hiring me/hire.tsx";
+import AboutUs2 from "../../Components/AboutUs/AboutUs2.tsx";
+import Project from "../../Components/Projects/Project.tsx";
 
 const HomePage = () => {
   return (
@@ -22,23 +25,26 @@ const HomePage = () => {
       <Helmet>
         <title>Personal Portfolio HDK.IO</title>
       </Helmet>
-      <Header/>
-      <FeaturedArea/>
-      <AboutUs/>
+      <Header />
+      <FeaturedArea />
+      {/* <AboutUs /> */
+       }
+       <AboutUs2/>
+      <EducationAndSkills />
+      <Services />
+      {/* <MyWorkExperience2 /> */}
 
-      <Services/>
-      <MyWorkExperience2/>
+       <Project/>
+      {/* <Portfolio/> */}
 
-      <EducationAndSkills/>
-      <Portfolio/>
-
-      <FreelanceWork/>
-      <Testimonials/>
-      <BlogPost/>
-      <Partners/>
-      <ContactInfoProfiles/>
-      <ContactUs/>
-      <BottomBar/>
+      <FreelanceWork />
+      {/* <Testimonials /> */}
+      {/* <BlogPost/> */}
+      {/* <Partners/> */}
+      <ContactInfoProfiles />
+      <ContactUs />
+      {/* <Hire/> */}
+      <BottomBar />
     </Fragment>
   );
 };

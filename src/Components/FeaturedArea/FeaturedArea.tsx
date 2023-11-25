@@ -5,12 +5,11 @@ import Shape1 from "../../../public/ani1.png";
 import Shape2 from "../../../public/ani2.png";
 import Shape3 from "../../../public/ani3.png";
 import Shape4 from "../../../public/ani3.webp";
+import cv from '../../../public/cv.pdf'
 
 const FeaturedArea = () => {
   return (
-    <section
-     className="featuredAreaWrap md:text-left text-center bg-dark z-[1] flex items-center bgGrident1 bg-blend-hard-light relative min-h-screen xl:rounded-br-[20rem] lg:rounded-br-[18rem] md:rounded-br-[15rem] sm:rounded-br-[10rem] rounded-br-0 w-screen md:py-[6.25rem] py-20">
-   
+    <section className="featuredAreaWrap md:text-left text-center bg-dark z-[1] flex items-center bgGrident1 bg-blend-hard-light relative min-h-screen xl:rounded-br-[20rem]  lg:rounded-br-[18rem] md:rounded-br-[15rem] sm:rounded-br-[10rem] rounded-br-0 w-screen md:py-[6.25rem] py-20">
       <div className="shaps absolute inset-0">
         <img
           className="absolute floatAnim left-[10%] top-[10%] animDelay1"
@@ -50,8 +49,9 @@ const FeaturedArea = () => {
                   <div className="featuredImg relative rounded-full">
                     <img
                       className="rounded-full relative z-[1] max-w-full  "
-                      src={FeatImg} 
-                      alt=""/>
+                      src={FeatImg}
+                      alt=""
+                    />
                     {/* Featured Image */}
                   </div>
                   {/* Featured Image Inner */}
@@ -73,7 +73,7 @@ const FeaturedArea = () => {
                 </h2>
                 <h5 className="md:justify-start justify-center font-bold text-[1rem] sm:text-[1.125rem] md:text-[1.25rem] font-Poppins text-white uppercase flex items-center gap-2.5 tracking-[1px]">
                   <span className="w-[2.5rem] sm:w-[3rem] md:w-[4.375rem] bg-accent h-[1px]"></span>
-                   FullStack Developer
+                  FullStack Developer
                 </h5>
                 <p className="text-[1rem] sm:text-[1.125rem] md:text-[1.25rem] lg:text-[1.25rem] xl:text-[1.375rem] text-desc md:leading-9 sm:leading-7 leading-6 w-full md:w-full lg:w-full xl:w-3/4 mt-6">
                   We're an award-winning, forward thinking, boutique digital &
@@ -93,12 +93,15 @@ const FeaturedArea = () => {
                       Hire Me
                     </span>
                   </Link>
-                  <Link
+                  <a
                     className="bg-white text-accent text-[1rem] font-Poppins font-bold uppercase rounded-[5px] md:rounded-[10px] md:px-6 lg:px-10 xl:px-11 px-7 md:py-[1.125rem] py-[14px] hover:bg-accent hover:text-white text-center inline-block"
-                    to="/"
-                    title="Download CV">
+                    // to="file:///C:/Users/Jay%20Kalbhairva/Downloads/Hardik_Bhammar_HDK_.pdf"
+                    title="Download CV" 
+                    download={cv}
+                       href={cv}>
                     Download CV
-                  </Link>
+                  </a>
+                  
                 </div>
                 {/* Featured Cap */}
               </div>

@@ -30,8 +30,12 @@ const Header = () => {
   return (
     <React.Fragment>
       <header className="z-[9999] hidden b lg:block" ref={refHeader} id="header">
-        <div className="topbar fixed md:top-[1.875rem] lg:top-[4rem] xl:top-[5rem] top-[1.25rem] left-0 w-full z-[9999]">
-          <div className="container mx-auto sm:container md:container lg:container xl:container 2xl:container">
+        <div 
+        className="topbar fixed md:top-[1.875rem] lg:top-[4rem] xl:top-[5rem] top-[1.25rem] left-0 w-full z-[9999]" 
+        >
+          <div 
+          className=" mx-auto sm:container md:container lg:container xl:container 2xl:container"
+          >
             <div className="flex items-center justify-between w-full topbarInner">
               <div className="logo inline-block max-w-[50%]">
                 <Link to="/" title="Fastone">

@@ -1,4 +1,4 @@
-import SectionBg from "../../assets/images/secBg11.jpg";
+import SectionBg from "../../assets/egale-HdWSYoees-transformed.jpeg";
 import  ContactForm from "../ContanctForm/ContanctForm";
 import  ContactInfo  from "../ContactInfo/ContactInfo";
 import  SocialLinks3  from "../SocialLinks/SocialLinks3";

@@ -4,6 +4,7 @@ import { PushSpinner } from 'react-spinners-kit';
 import RouterLinks from "./router/Routes";
 
 
+
 function App() {
   const [loading, setLoading] = useState(false);
 
@@ -16,7 +17,7 @@ function App() {
 
   return (
     <>
-   <div className="HDK.IO">
+   <div className="HDK.IO ">
       {loading ? (
         <div className="pageLoader fixed justify-center items-center inset-0 flex  ">
           <PushSpinner 
@@ -27,6 +28,7 @@ function App() {
         </div>
       ) : (
         <RouterLinks></RouterLinks>
+       
       )}
     </div>
     </>

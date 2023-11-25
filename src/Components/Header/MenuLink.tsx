@@ -34,7 +34,7 @@ const MenuLinks = () => {
         </li>
         <li className="menuItemHasChildren relative group text-[1rem] lg:text-[1.125rem] font-Poppins font-semibold uppercase">
           <span className="group-hover:text-accent text-accent2 pr-5 relative block cursor-pointer">
-            Blog
+            About
             <FiChevronDown className="absolute right-0 top-[4px]"></FiChevronDown>
           </span>
           <ul
@@ -68,7 +68,7 @@ const MenuLinks = () => {
         </li>
         <li className="menuItemHasChildren relative group text-[1rem] lg:text-[1.125rem] font-Poppins font-semibold uppercase">
           <span className="group-hover:text-accent text-accent2 pr-5 relative block cursor-pointer">
-            Portfolio
+            Project
             <FiChevronDown className="absolute right-0 top-[4px]"></FiChevronDown>
           </span>
           <ul
@@ -110,7 +110,7 @@ const MenuLinks = () => {
         </li>
         <li className="menuItemHasChildren relative group text-[1rem] lg:text-[1.125rem] font-Poppins font-semibold uppercase">
           <span className="group-hover:text-accent text-accent2 pr-5 relative block cursor-pointer">
-            Pages
+            Skills
             <FiChevronDown className="absolute right-0 top-[4px]"></FiChevronDown>
           </span>
           <ul

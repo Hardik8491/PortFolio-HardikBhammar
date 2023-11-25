@@ -18,13 +18,13 @@ export const MenuData = [
     ],
   },
   {
-    title: "Blog",
+    title: "About",
     path: "#",
     iconClosed: <FiIcons.FiChevronDown className="text-white" />,
     iconOpened: <FiIcons.FiChevronUp className="text-white" />,
     subNav: [
       {
-        title: "Blog  ",
+        title: "About  ",
         path: "/blog",
         cName: "sub-nav",
       },

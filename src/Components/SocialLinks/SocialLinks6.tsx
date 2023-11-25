@@ -14,7 +14,7 @@ const SocialLinks6 = () => {
               key={index}
               rel="noreferrer"
             >
-              {item.socialIcon}
+       {item.socialIcon }
             </span>
           )
       )}
