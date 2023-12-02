@@ -1,7 +1,6 @@
 import SectionBg from "../../../public/secBg2.03666bf5504b026ddd75.jpg";
 import  Skills  from "../Skills/Skills";
 import Education2 from "../Eductions/Education2";
-import SkillItem from "../Skills/skillItem";
 
 const EducationAndSkills = () => {
   return (

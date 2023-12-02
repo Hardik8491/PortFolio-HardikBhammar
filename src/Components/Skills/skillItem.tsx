@@ -1,5 +1,5 @@
 
-import { Skill_data, skills } from "../data/skills";
+import { Skill_data } from "../data/skills";
 
 const SkillItem = () => {
   return (

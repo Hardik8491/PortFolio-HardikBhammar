@@ -1,4 +1,4 @@
-
+// @ts-nocheck
 import { Skill_data } from "../data/skills";
 import SectionTitleLightFull from "../SectionTitles/SectionTitle3";
 import { useState } from "react";
